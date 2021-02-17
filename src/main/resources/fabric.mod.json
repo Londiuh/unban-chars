@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "unbanchars",
+  "version": "${version}",
+
+  "name": "Unban Chars",
+  "description": "Allows you to type banned characters.",
+  "authors": [
+    "Londiuh"
+  ],
+  "contact": {
+    "sources": "https://github.com/Londiuh/unban-chars"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "",
+
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "unbanchars.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
